@@ -4,10 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css">    
 </head>
 <body>
+    <div class="maincontainer">
+
+        <!---------------------------------Header------------------------------------>
     
+       <header>
+           <H1 class="title">ETHAN FOSTER MUSIC</H1>
+       </header>
+    
+       <!----------------------------------NavBar------------------------------------>
+    
+    
+        <nav>
+     
+                 <a href="#"><img src="/img/LogoMakr-1BATCM.png" alt="Site Logo" style="width: 65px;height: 65px;" class="logo"></a>
+     
+                 <ul>
+                     <li><a href="#">HOME</a></li>
+                     <li><a href="#">PORTFOLIO</a></li>
+                     <li><a href="#">CONTACT AND RATES</a></li>
+                 </ul>
+     
+        </nav>
+    
+    
+       <!----------------------------------Body--------------------------------------->
+       <br><br><br><br>
+        <div class="contact-form-div">
+            <form class="contact_form" action="#" method="post" name="contact_form">
+                <ul>
+                    <li>
+                        <h2>Contact Me</h2>
+                        <span class="required_notification">(* Denotes Required Field)</span>
+                    </li>
+                    <br><br>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text"  placeholder="John Doe" required />
+                    </li>
+                    <br>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="john_doe@example.com" required />
+                        <br>
+                        <span class="form_hint">Proper format "name@something.com"</span>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="website">Website:</label>
+                        <input type="url" name="website" placeholder="http://johndoe.com" required pattern="(http|https)://.+"/>
+                        <br>
+                        <span class="form_hint">Proper format "http://someaddress.com"</span>
+                    </li>
+                    <br>
+                    <li>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea name="message" cols="40" rows="6" required ></textarea>
+                    </li>
+                    <li>
+                        <button class="submit" type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="rates">
+            <br><br><br><br>
+            <h2>RATES</h2>
+            <br><br>
+            <ul class="rateslist">
+
+                <li>Drum Lessons: $25/30mins</li>
+                <li>Recording Sessions: $50/hr</li>
+                <li>Mixing: $100/2hrs</li>
+                <li>Mastering: $150/3hrs</li>
+                <li>Jamming: FREE</li>
+    
+            </ul>
+            <br><br><br><br><br>
+        </div>
+    
+    
+    
+    
+       <!-----------------------------------Footer------------------------------------->
+    
+    </div>
+    
+        <footer>
+            <div>
+                <h3>Social Media Links:</h3>
+                <br><br>
+                <a href="https://www.instagram.com/"><img src="/img/iconfinder_38-instagram_104466.png" alt="instagram icon" style="width: 50px;"></a>
+                <a href="https://www.facebook.com/"><img src="/img/iconfinder_facebook-logo_1269914.png" alt="facebook icon" style="width: 45px;"></a>
+                <a href="https://www.youtube.com/"><img src="/img/iconfinder_Youtube_3709563.png" alt="youtube icon" style="width: 55px;"></a>
+            </div>
+            <br><br>
+            <div class="copyright">
+                <small>&copy; Copyright 2021, Ethan Foster Music</small>
+            </div>
+        </footer>
 </body>
 </html>

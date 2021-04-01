@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    scroll-behavior: smooth;
+    width: 100%;
+    text-decoration: none;
+}
+
+body {
+    /* height: 200%; */
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+/* for formatting footer's relationship with everything else*/
+.maincontainer { 
+    min-height: 100vh;
+    /* overflow: hidden; */                 /* in order to preserve sticky nav*/
+    display: block;
+    position: relative;
+    padding-bottom: 200px;
+}
+    
+a {
+    color: inherit;
+    
+}
+
+a:hover {
+    color: #a8cddd ;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    padding: 30px;
+}
+
+.title, nav {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+nav {
+    list-style-type: none;
+    background-color: #e4e5ed;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    width: 80%;
+    position: sticky; top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+nav li, div, .logo  {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+footer {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: #c8c0c0;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+h3{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+img > div {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+small {
+    float:right
+}
+
+iframe {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 10%;
+
+}
+
+section {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    color: #a8cddd;
+}
+
+.contact-form-div {
+    
+}
+
+.contact_form {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+    background-color: #a8cddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_form > ul, .rateslist {
+    list-style-type: none;
+    padding:10px
+}
+
+button {
+    font-size: 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #92C290 ;
+}
+
+input, textarea {
+    background-color: white;
+    width: fit-content;
+    border: 1px lightgrey;
+}
+
+.rates {
+    margin: 0 auto;
+    display: inline-block;
+    width: 80%;
+    background-color: #a8cddd;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50%;
+}
+
+.rateslist {
+    margin: 2px;
+    padding: 2px;
+}
+
+section > h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* .hero-image {
+    background-image: url(../img/DSC01923.jpg);
+    width: 80%;
+    height: 30%;
+    position: relative;
+} */
+
+#hero {
+    width: 80%;
+    position: relative;
+    /* margin: 0 auto; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    display: inline;
+}
+
+article {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 45px;
+}
+
+article > p {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
